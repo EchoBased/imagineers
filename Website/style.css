@@ -1,5 +1,13 @@
 body{
+    background-image: url(images/vanta.jpg);
+    background-size: cover;
+}
 
+@font-face {
+    font-family: "waltograph";
+    src: url(fonts/waltograph/waltograph42.otf);
+    font-weight: 300 800;
+    font-style: normal;
 }
 
 *{
@@ -11,14 +19,21 @@ body{
     text-align: center;
     color: rgb(243, 204, 100);
     width: 100%;
-    height: 50%;
+    height: 75%;
+    
     background-color: darkslateblue;
     opacity: 1;
-    padding: 10% 0%;
+    padding: 25% 0%;
 }
 
 .header h1{
+    font-family: waltograph;
+    font-size: 800%;
+}
 
+.header h3{
+    font-family: waltograph;
+    font-size: 200%;
 }
 
 .nav{
@@ -29,10 +44,14 @@ body{
 }
 
 .nav ul{
+    font-family: waltograph;
+    font-size: 150%;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    position: sticky;
+    top: 0;
     background-color: rgb(0, 0, 0);
 }
 .nav li{
@@ -42,23 +61,30 @@ body{
 
 .nav a{
     display: block;
-    color: white;
+    color: rgb(243, 204, 100);
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 30px;
     text-decoration: none;
 }
 
 .nav li a:hover {
     background-color: rgb(177, 34, 40);
+    
 }
 
 .center{
     padding: 10% 10%;
+    border-radius: 25px;
     background-color: green;
+    box-shadow: 10px 10px lightblue;
+    margin: 5% 10%;
 }
 
 .center h2{
     float: left;
+    font-family: waltograph;
+    font-size: 500%;
+    padding: 0% 5% 0% 0%;
 }
 
 .center p{
@@ -67,12 +93,17 @@ body{
 }
 
 .bottom{
+    border-radius: 25px;
     padding: 10% 10%;
     background-color: grey;
+    margin: 5% 10%;
 }
 
 .bottom h2{
     float: left;
+    font-family: waltograph;
+    font-size: 500%;
+    padding: 0% 5% 0% 0%;
 }
 
 .bottom p{
@@ -81,10 +112,19 @@ body{
 }
 
 .tail{
-    padding: 10% 10%;
+    border-radius: 25px;
+    padding: 30% 10%;
     background-color: yellow;
+    margin: 5% 10%;
 }
 
 .footer{
+    font-family: waltograph;
+    font-size: xx-large;
+    color: aliceblue;
+    clear: both;
+    position: relative;
+    height: 100%;
+    margin-top: 100%;
     text-align: center;
 }
