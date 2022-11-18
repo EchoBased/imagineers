@@ -80,9 +80,9 @@ body{
 
 .center{
     height: 500px;
-    padding: 10%;
+    padding: 10% 10%;
     border-radius: 25px;
-    margin: 5% 10%;
+    margin: 10% 10% 5% 10%;
     filter: drop-shadow(2px 4px 6px black);
     background-color: rgba(152, 151, 151, 0.2); 
 }
