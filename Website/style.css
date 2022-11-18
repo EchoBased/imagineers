@@ -1,5 +1,6 @@
 body{
     background-image: url(images/vanta.jpg);
+    background-position: center;
     background-size: cover;
 }
 
@@ -17,10 +18,8 @@ body{
 
 .header{
     text-align: center;
-    color: rgb(243, 204, 100);
     width: 100%;
-    height: 75%;
-    
+    height: 75px;
     background-color: darkslateblue;
     opacity: 1;
     padding: 25% 0%;
@@ -29,14 +28,18 @@ body{
 .header h1{
     font-family: waltograph;
     font-size: 800%;
+    color: #F64C72;
 }
 
 .header h3{
     font-family: waltograph;
     font-size: 200%;
+    color: whitesmoke
 }
 
 .nav{
+    top 0;
+    position: sticky;
     float: right;
     height: 50px;
     line-height: normal;
@@ -44,47 +47,51 @@ body{
 }
 
 .nav ul{
+    top 0;
+    position: sticky;
     font-family: waltograph;
     font-size: 150%;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     position: sticky;
     top: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: darkslategrey;
+    overflow: hidden;
 }
 .nav li{
     display: inline;
     float: left;
+    overflow: hidden;
 }
 
 .nav a{
     display: block;
-    color: rgb(243, 204, 100);
+    color: whitesmoke;
     text-align: center;
     padding: 15px 30px;
     text-decoration: none;
 }
 
 .nav li a:hover {
-    background-color: rgb(177, 34, 40);
+    background-color: grey
     
 }
 
 .center{
-    padding: 10% 10%;
+    height: 500px;
+    padding: 10%;
     border-radius: 25px;
-    background-color: green;
-    box-shadow: 10px 10px lightblue;
     margin: 5% 10%;
+    filter: drop-shadow(2px 4px 6px black);
+    background-color: rgba(152, 151, 151, 0.2); 
 }
 
 .center h2{
     float: left;
     font-family: waltograph;
     font-size: 500%;
-    padding: 0% 5% 0% 0%;
+    
 }
 
 .center p{
@@ -93,10 +100,13 @@ body{
 }
 
 .bottom{
+    height: 500px;
     border-radius: 25px;
     padding: 10% 10%;
     background-color: grey;
     margin: 5% 10%;
+    filter: drop-shadow(2px 4px 6px black);
+    background-color: rgba(152, 151, 151, 0.2); 
 }
 
 .bottom h2{
@@ -114,8 +124,10 @@ body{
 .tail{
     border-radius: 25px;
     padding: 30% 10%;
-    background-color: yellow;
+    
     margin: 5% 10%;
+    filter: drop-shadow(2px 4px 6px black);
+    background-color: rgba(152, 151, 151, 0.2); 
 }
 
 .footer{
@@ -125,6 +137,8 @@ body{
     clear: both;
     position: relative;
     height: 100%;
-    margin-top: 100%;
+    margin-top: 50%;
     text-align: center;
+    filter: drop-shadow(2px 4px 6px black);
+    background-color: rgba(152, 151, 151, 0.2); 
 }
