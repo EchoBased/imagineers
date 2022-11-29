@@ -23,42 +23,45 @@ body{
     background-color: darkslateblue;
     opacity: 1;
     padding: 25% 0%;
+    
+    
 }
 
 .header h1{
+    text-shadow: 2px 2px 4px #000000;
     font-family: waltograph;
     font-size: 800%;
     color: #F64C72;
 }
 
 .header h3{
+    text-shadow: 2px 2px 4px #000000;
     font-family: waltograph;
     font-size: 200%;
     color: whitesmoke
 }
 
 .nav{
-    top 0;
-    position: sticky;
     float: right;
     height: 50px;
     line-height: normal;
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .nav ul{
-    top 0;
-    position: sticky;
     font-family: waltograph;
     font-size: 150%;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: sticky;
     top: 0;
     background-color: #303030;
     overflow: hidden;
 }
+
 .nav li{
     display: inline;
     float: left;
@@ -67,7 +70,8 @@ body{
 
 .nav a{
     display: block;
-    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+    color: ghostwhite;
     text-align: center;
     padding: 15px 30px;
     text-decoration: none;
@@ -80,7 +84,7 @@ body{
 
 .center{
     height: 500px;
-    padding: 10% 10%;
+    padding: 0% 10% 10% 10%;
     border-radius: 25px;
     margin: 10% 10% 5% 10%;
     filter: drop-shadow(2px 4px 6px black);
@@ -88,21 +92,27 @@ body{
 }
 
 .center h2{
-    float: left;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    color: #F64C72;
     font-family: waltograph;
-    font-size: 500%;
+    font-size: 700%;
     
 }
 
 .center p{
+    text-indent: 5%;
     float: left;
-    padding-top: 2%;
+    color: ghostwhite;
+    font-size: 175%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding-top: 0%;
 }
 
 .bottom{
     height: 500px;
     border-radius: 25px;
-    padding: 10% 10%;
+    padding: 0% 10% 10% 10%;
     background-color: grey;
     margin: 5% 10%;
     filter: drop-shadow(2px 4px 6px black);
@@ -110,14 +120,20 @@ body{
 }
 
 .bottom h2{
-    float: left;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    color: #F64C72;
     font-family: waltograph;
-    font-size: 500%;
-    padding: 0% 5% 0% 0%;
+    font-size: 700%;
+    padding: 0% 0% 0% 0%;
 }
 
 .bottom p{
+    text-indent: 5%;
     float: left;
+    color: ghostwhite;
+    font-size: 175%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
     padding-top: 2%;
 }
 
@@ -133,7 +149,7 @@ body{
 .footer{
     font-family: waltograph;
     font-size: xx-large;
-    color: aliceblue;
+    color: ghostwhite;
     clear: both;
     position: relative;
     height: 100%;
